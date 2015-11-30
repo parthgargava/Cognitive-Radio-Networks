@@ -1,0 +1,345 @@
+INTRODUCTION
+
+1.1	GENERAL INTRODUCTION
+
+
+A cognitive radio is an intelligent radio that can be programmed and configured dynamically. Its transceiver is designed to use the best wireless channels in its vicinity. Such a radio automatically detects available channels in wireless spectrum, then accordingly changes its transmission or reception parameters to allow more concurrent wireless communications in a given spectrum band at one location. This process is a form of dynamic spectrum management.
+In response to the operator's commands, the cognitive engine is capable of configuring radio-system parameters. These parameters include "waveform, protocol, operating frequency, and networking". This functions as an autonomous unit in the communications environment, exchanging information about the environment with the networks it accesses and other cognitive radios (CRs). A CR "monitors its own performance continuously", in addition to "reading the radio's outputs"; it then uses this information to "determine the RF environment, channel conditions, link performance, etc.", and adjusts the "radio's settings to deliver the required quality of service subject to an appropriate combination of user requirements, operational limitations, and regulatory constraints".
+Some "smart radio" proposals combine wireless mesh network—dynamically changing the path messages take between two given nodes using cooperative diversity; cognitive radio—dynamically changing the frequency band used by messages between two consecutive nodes on the path; and software-defined radio—dynamically changing the protocol used by message between two consecutive nodes.
+
+
+
+1.2	PROBLEM STATEMENT
+
+To design and develop a technique to analyze and correlate spectrum allocation of secondary users using optimization problem of linear cooperative spectrum sensing techniques 
+
+
+
+
+
+
+
+
+
+
+CHAPTER 2
+
+LITERATURE SURVEY
+
+
+2.1	SOURCES
+
+Primary Sources : Research Reports
+COGNITIVE RADIOS FOR DYNAMIC SPECTRUM ACCESS - The Throughput Potential of Cognitive Radio: A Theoretical Perspective
+Srinivasa, S. 
+California Univ., Irvine, CA 
+Jafar, S.A.
+
+Secondary Sources : Academic journal articles, conference proceedings, books
+	(Mentioned in next section)
+
+Tertiary Sources : Research Group Websites of numerous Universities such as universities of Southern California
+
+•	Cognitive Radio as part of communications and network research group, MIT LAB
+
+2.2	SUMMARY OF PAPERS
+
+Paper 1
+ Title of paper 	Optimization of linear Cooperative Spectrum Sensing for Cognitive Radio Networks
+Authors 	Giorgio Taricco
+Year of Publication 	2011
+Publishing details 	IEEE Journal in Signal Processing
+Summary 	From what I have learnt from this paper is that this paper provides a simple and direct analytical method which solves the optimization problem to a general form using covariance matrices to be non diagonal. It provides solution to non convex optimisation problem wherein it further encompasses cases of non diagonal covariance matrices and the case of maximization instead of minimization. It explains the parameters involved in spectrum sensing techniques.
+Web link 	http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=5497066&queryText%3Doptimzation+spectrum+sensing+girgio+tarocci
+
+Paper 2
+Title of paper 	Implementation issues in spectrum sensing for cognitive radios
+
+Authors 	
+Cabric, D. 
+Berkeley Wireless Res. Center, California Univ., Berkeley, CA, USA 
+Mishra, S.M. ; Brodersen, R.W.
+
+Year of Publication 	7-10 Nov. 2004
+Publishing details 	
+Signals, Systems and Computers, 2004. Conference Record of the Thirty-Eighth Asilomar Conference on  (Volume:1 )
+
+Summary 	With this paper, I gained knowledge of understanding the challenges involved in implementation of (a simulation) of a cognitive radio network. It cites out the ability to sense the spectral environment and the flexibility to adapt transmission parameters to maximize system capacity while coexisting with legacy wireless networks. It points out the severe requirements on sensitivity, linearity and dynamic range of the circuitry in the RF front-end while making a cognitive radio network.
+Web link 	http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=1399240&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D1399240
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Paper 3
+Title of paper 	A survey of spectrum sensing algorithms for cognitive radio applications
+Authors 	
+Yucek, T. 
+Atheros Commun. Inc., Santa Clara, CA 
+Arslan, H.
+
+Year of Publication 	2009
+Publishing details 	
+Communications Surveys & Tutorials, IEEE  (Volume:11 ,  Issue: 1 )
+
+Summary 	This paper helped me understand the new spectrum sensing concepts by considering different dimensions of the spectrum space. It explains distributed sensing wherein cognitive nodes share information but make their own information decisions as to which spectrum they wish to use. External sensing has an external agent perform the sensing and broadcasts the channel occupancy information to cognitive radios. My project’s main study is on cooperative sensing which is a solution to problems that arise in spectrum sensing due to noise uncertainity, fading and shadowing. Cooperative sensing decreases the probability of mis detection and false alarm rate and it also solves hidden primary user problems.
+Web link 	http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=4796930&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D4796930
+
+Paper 4
+Title of paper 	A survey on spectrum management in cognitive radio networks
+
+Authors 	
+Akyildiz, I.F. 
+Georgia Inst. of Technol., Atlanta 
+Won-Yeol Lee ; Vuran, Mehmet C. ; Mohanty, S.
+
+Year of Publication 	2008
+Publishing details 	
+Communications Magazine, IEEE  (Volume:46 ,  Issue: 4 )
+
+Summary 	This review paper helped in understanding spectrum management to uers via heterogenous wireless architectures and dynamic spectrum techniques. It also presents recent developments and open research issues in spectrum management in CR networks. More specifically, the best part about this discussion which I learnt was that it is focused on the development of CR networks that require no modification of existing networks. Also four main challenges of spectrum management are discussed: spectrum sensing, spectrum decision, spectrum sharing, and spectrum mobility.
+Web link 	http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=4481339&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D4481339
+
+
+Paper 5
+Title of paper 	Dynamic spectrum allocation in cognitive radio using hidden Markov models: Poisson distributed case
+
+Authors 	
+Akbar, I.A. 
+Mobile & Portable Radio Res. Group, Virginia Tech, Blacksburg, VA 
+Tranter, W.H.
+
+Year of Publication 	2007
+Publishing details 	
+SoutheastCon, 2007. Proceedings. IEEE
+Summary 	The proposed technique in this paper helped me understand on dynamically selecting different licensed bands for its own use with significantly less interference from and to the licensed users. In this paper, it has been identified that by predicting the duration of spectrum holes of primary users, the CR can utilize them more efficiently by leaving the band, that it currently occupies, before the start of traffic from the primary user of that band. This paper explained a simple algorithm, called the Markov-based channel prediction algorithm (MCPA), for dynamic spectrum allocation in cognitive radio networks. In this work, the authors have presented the performance of proposed dynamic spectrum allocation algorithm when the channel state occupancy of primary users are assumed to be Poisson distributed. 
+Web link 	http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=4147414&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D4147414
+
+
+
+
+
+
+
+
+
+
+
+
+CHAPTER 3
+
+RESULTS OF LITERATURE SURVEY
+
+
+3.1 INTEGRATED SUMMARY OF THE LITERATURE STUDIED
+
+Through the above papers, we summarise the opportunities and challenges involved in a theoretical study of spectrum allocation/ spectrum management of a cognitive radio network with parameters of a cooperative system used in spectrum sensing.
+
+Although cognitive radio was initially thought of as a software-defined radio extension (full cognitive radio), most research work focuses on spectrum-sensing cognitive radio (particularly in the TV bands). The chief problem in spectrum-sensing cognitive radio is designing high-quality spectrum-sensing devices and algorithms for exchanging spectrum-sensing data between nodes. It has been shown that a simple energy detector cannot guarantee the accurate detection of signal presence, calling for more sophisticated spectrum sensing techniques and requiring information about spectrum sensing to be regularly exchanged between nodes. Increasing the number of cooperating sensing nodes decreases the probability of false detection.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3.2 RELEVANT PROBLEMS
+
+•	The need for higher data rates is increasing as a result of the transition from voice only communications to multimedia communication
+•	Limited natural frequency spectrum requires us to come up with effective and judicious usage of spectrum
+•	Requirement to solve the problem of spectrum suggestion is an open problem which caters to solution by cognitive radio networks
+
+3.3 BACKGROUND RESEARCH
+
+
+
+•	SPECTRUM SENSING- Cognitive Radio having the great key mechanism of enabling spectrum awareness in the Spectrum sensing. This paper deals with spectrum sensing methods used in a cognitive radio is presented and also deals disadvantages and advantages facing each sensing method. Cognitive radio facing many feature difficulties in spectrum sensing and those are measured by multi-dimensional spectrum sensing. Those tasks are enabling and revised these spectrum sensing approaches. Other alternative methods like Statistical sensing algorithms also discussed here. Moreover, statistical modelling of network utilization and also traffic models are used for estimation of primary user performance. Spectrum sensing uses dynamic spectrum model without troubling the primary users. This may improves the radio frequency usage of spectrum and it is done when both unlicensed and licensed reducing interference and also by usage of licensed users for identifying the white spaces. The concurrence of these circumstances can produce a commands where the signal to noise ratio (SNR) is below the level of detection threshold by use of sensor, and it missed detections at final result.
+•	Spectrum management is the process of regulating the use of radio frequencies to promote efficient use and gain a net social benefit.[1] The term radio spectrum typically refers to the full frequency range from 3 kHz to 300 GHz that may be used for wireless communication. Increasing demand for services such as mobile telephones and many others has required changes in the philosophy of spectrum management. Demand for wireless broadband has soared due to technological innovation, such as 3G and 4G mobile services, and the rapid expansion of wireless internet services. Since the 1930s, spectrum was assigned through administrative licensing. Limited by technology, signal interference was once considered as a major problem of spectrum use. Therefore, exclusive licensing was established to protect licensees' signals. This former practice of discrete bands licensed to groups of similar services is giving way, in many countries, to a spectrum auction model that is intended to speed technological innovation and improve the efficiency of spectrum use. During the experimental process of spectrum assignment, other approaches have also been carried out, namely, lotteries, unlicensed access and privatization of spectrum.
+•	SPECTRUM MOBILITY- Cognitive radio networks (CRNs) offer a promising solution for spectrum scarcity problem by means of dynamic spectrum access. So long as in highly dynamic environments, the secondary user (SU) communication is often interrupted, spectrum mobility is a key feature enabling continuous SU data transmission. Namely, SU performs spectrum handoff by transferring ongoing communication to a vacant channel. This article discusses some important features of spectrum mobility in CRNs. Qualitative comparison of various handoff strategies is considered with regard to handoff latency. Furthermore, essential design issues and associated research challenges are also addressed.
+•	Spectrum sharing encompasses several techniques – some administrative, technical and market-based. Spectrum can be shared in several dimensions; time, space and geography. Demand for spectrum is increasing and frequency bands (below 1GHz) are becoming more congested especially in densely populated urban centres. Spectrum can be shared in several dimensions; time, space and geography; Diverse approaches to sharing frequencies some administrative, technical and market-based in band sharing ,leasing and spectrum trading, and use of unlicensed spectrum commons combined with the use of low power radios or advanced radio technologies including ultra-wideband
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CHAPTER 4
+
+IMPLEMENTATION AND TESTING
+
+
+4.1	OVERALL DESCRIPTION OF PROJECT
+
+4.1.1	PRODUCT PERSPECTIVE
+The end result for this project to be developed: “Correlation between spectrum allocation and spectrum sensing using parameters of spectrum sensing of a linear cooperative system”. 
+
+4.1.2	PRODUCT FUNCTIONS
+Functional Requirements:
+FR 1: The conclusion shall be able to establish with an equation the relation of spectrum allocation or spectrum management in the mathematical models/parameters of spectrum sensing.
+FR 2: The conclusion shall provide a mechanism with mathematics to complete this theoretical study.
+
+Non-Functional Requirements:
+NFR 1: The equation of correlation should be reliable. 
+NFR 2: The conclusion should be validated by mathematical laws.
+NFR 3: The predicted equation must be accurate.
+
+4.1.3	USER CHARACTERISTICS
+UC 1: This project is not a user based application.
+
+4.1.4	CONSTRAINTS
+Understanding of mathematical modeling involving covariance matrices and Hess matrices.
+
+4.1.5	ASSUMPTIONS AND DEPENDENCIES
+
+Assumption 1: The author is has brief background of spectrum allocation and spectrum sensing with special emphasis on work done in cognitive radio networks. 
+.
+
+4.3	IMPLEMENTATION DETAILS AND ISSUES
+
+
+Module 1: Understanding background mathematics related to the paper based on theoretical study 
+
+Module 2: Learning parameters and techniques of linear cooperative system
+
+Module 3: In depth understanding of spectrum sensing techniques in linear cooperative systems
+
+	Module 4: In depth understanding of spectrum allocation techniques in linear cooperative systems
+	
+Module 5: Finding correlation between spectrum sensing and spectrum allocation
+
+
+
+
+
+
+4.4	TESTING
+4.4.1	TESTING PLAN
+
+Type of Test	Will Test Be Performed?	Comments/Explanations	Software Component
+Requirements Testing	No	No physical hardware required	
+Unit Testing	Yes	We need to test all the four modules through validated proofs.	All Modules
+Integration	Yes	We need to test if all the stages work synchronously	All Modules
+Performance	Yes	We need to test the accuracy of the mathematical model	
+Stress	No	Not a user based application	All Modules
+Compliance	No	Not a user based application	None
+Security	No	Not a user based application	None
+Load	No	Not a user based application	None
+Table 1. Testing Plan
+
+4.4.5	LIMITATIONS OF THE SOLUTION
+.
+•	The solution needs to be optimized in terms of accuracy and speed.
+
+4.5	RISK ANALYSIS AND MITIGATION
+Risk Id	Classification	Description	Risk Area	Probability	Impact	RE = (P*I)
+R1	Performance/credibility	Low Peformance	Model Engineering	H	H	81
+R2	Budget for implementation verification	Low Budget	Program Constraints	M	L	3
+R3	Project Specification	Infeasible Specifications	Product Engineering	L	L	1
+R4	Hardware for mathematical modelling	Hardware Constraints	Product Engineering	H	H	81
+R5	Accuracy	Low Accuracy	Product Engineering	M	H	27
+R6	External Inputs	Inaccurate Inputs	Program Constraints	H	H	81
+Table 7. Risk Identification
+
+ 
+Fig 10. Weighted Interrelationship Graph
+S.N. 
+
+	Risk Area	# of Risk
+Statements
+	Weights
+(In + Out)
+	Total
+Weight
+	Priority
+
+1	Performance	5	1+1+9+9+9	29	1
+2	Accuracy	3	9+9+9	27	2
+3	Hardware	3	3+9+9	21	3
+4	External Inputs	2	9+9	18	4
+5	Project Specification	3	3+3+1	7	5
+6	Budget	2	3+1	4	6
+Table 8. Risk Area Wise Total Weighting Factor
+
+Risk Id	Risk Statement	Risk Area	Priority
+R1	Risk of Low Performance	Performance	1
+R5	Risk of Low Accuracy	Accuracy	2
+R4	Risk of inaccurate hardware equipment	Hardware	3
+R6	Inaccurate Inputs (Noise Input)	External Inputs	4
+Table 9. Risks with Maximum Weight
+
+MITIGATION APPROACHES
+Approach 1: To ensure cross checking of parameters involved for derivation
+18 Feb 2015	30 March 2015	Parth Gargava
+Additional Resources : Learning resources
+
+Approach 2: To ensure simplification of correlation
+13 Febr 2015	30 March 2015	Parth Gargava
+Additional Resources : None
+
+
+
+
+
+
+
+REFERENCES
+1.	Report of the Spectrum Efficiency Working Group,,  2002 
+2.	J. Mitola  Cognitive radio: An integratedagent architecture for software defined radio,  2000 
+3.	S. Srinivasa and S. A. Jafar  "The throughput potential of cognitive radio: A theoretical perspective", IEEE Commun. Mag.,  vol. 45,  no. 5,  pp.73 -79 2007 
+4.	S. Haykin  "Cognitive radio: Brain-empowered wireless communications",  IEEE J. Select. Areas Commun.,  vol. 23,  no. 2,  pp.201 -220 2005 
+5.	C. R. Stevenson , G. Chouinard , Z. Lei , W. Hu , S. J. Shellhammer and W. Caldwell  "IEEE 802.22: The first cognitive radio wireless regional area network standard",  IEEE Commun. Mag.,  vol. 47,  no. 1,  pp.130 -138 2009 
+6.	H. V. Poor  An Introduction to Signal Detection and Estimation,  1994 :Springer-Verlag 
+7.	A. Ghasemi and E. S. Sousa  "Collaborative spectrum sensing for opportusitic access in fading enviroments",  Proc. IEEE DySPAN 2005,  pp.131 -136 2005 
+8.	E. Visotsky , S. Kuffner and R. Peterson  "On collaborative detection of TV transmissions in support of dynamic spectrum sharing",  Proc. DySPAN 2005,  pp.338 -345 2005 
+9.	S. Zarrin and T. J. Lim  "Belief propagation on factor graphs for cooperative spectrum sensing in cognitive radio",  Proc. IEEE DySPAN 2008,  pp.1 -9 2008 
+10.	H. Uchiyama , K. Umebayashi , Y. Kamiya , Y. Suzuki , T. Fujii , F. Ono and K. Sakaguchi  "Study on cooperative sensing in cognitive radio based ad-hoc network",  Proc. IEEE PIMRC 2007,  pp.1 -5 2007 
+
+
